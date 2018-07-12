@@ -1,0 +1,30 @@
+// Copyright (C) 2018, Alex Scheitlin. All rights reserved.
+//
+// This source code is licensed under the MIT license
+// found in the LICENSE file in the root directory of this project.
+
+$attributes: (
+    'background-color',
+    'border-bottom-color',
+    'border-color',
+    'border-left-color',
+    'border-right-color',
+    'border-top-color',
+    'caret-color',
+    'color',
+    'column-rule-color',
+    'outline-color',
+    'text-decoration-color',
+);
+
+@mixin theme-color ($attribute, $percentage: 1.0) {
+    @if index($attributes, $attribute) == null {
+        @error "#{$attribute} is not a valid attribute name!";
+    }
+    @each $name,
+    $value in $colors {
+        body.#{$name} & {
+            #{$attribute}: rgba($value, $percentage);
+        }
+    }
+}

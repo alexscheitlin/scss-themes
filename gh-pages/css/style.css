@@ -1,0 +1,227 @@
+/**
+ * Copyright (C) 2018, Alex Scheitlin. All rights reserved.
+ *
+ * This source code is licensed under the MIT license
+ * found in the LICENSE file in the root directory of this project.
+ */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Roboto, Arial, Helvetica, Nimbus Sans L, sans-serif;
+  font-size: 100%;
+}
+
+body {
+  background-color: #ebebeb;
+}
+
+.wrapper {
+  margin: 100px auto 0 auto;
+  width: 460px;
+  background: #fafafa;
+  border: 1px solid #ebebeb;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.14902) 0px 1px 1px 0px, rgba(0, 0, 0, 0.09804) 0px 1px 2px 0px;
+          box-shadow: rgba(0, 0, 0, 0.14902) 0px 1px 1px 0px, rgba(0, 0, 0, 0.09804) 0px 1px 2px 0px;
+  padding: 20px;
+}
+
+h1 {
+  border-bottom: 1px solid;
+  font-size: 2rem;
+}
+
+body.orange-light h1 {
+  color: #f2690d;
+}
+
+body.orange-dark h1 {
+  color: #d84b39;
+}
+
+body.red h1 {
+  color: #ce001b;
+}
+
+body.purple h1 {
+  color: #700076;
+}
+
+body.blue-light h1 {
+  color: #0487c8;
+}
+
+body.blue h1 {
+  color: #2f4792;
+}
+
+body.blue-dark h1 {
+  color: #244874;
+}
+
+body.blue-green h1 {
+  color: #016272;
+}
+
+body.green h1 {
+  color: #41650b;
+}
+
+body.orange-light h1 {
+  border-color: #f2690d;
+}
+
+body.orange-dark h1 {
+  border-color: #d84b39;
+}
+
+body.red h1 {
+  border-color: #ce001b;
+}
+
+body.purple h1 {
+  border-color: #700076;
+}
+
+body.blue-light h1 {
+  border-color: #0487c8;
+}
+
+body.blue h1 {
+  border-color: #2f4792;
+}
+
+body.blue-dark h1 {
+  border-color: #244874;
+}
+
+body.blue-green h1 {
+  border-color: #016272;
+}
+
+body.green h1 {
+  border-color: #41650b;
+}
+
+.panel {
+  border: 1px solid;
+}
+
+body.orange-light .panel {
+  border-color: #f2690d;
+}
+
+body.orange-dark .panel {
+  border-color: #d84b39;
+}
+
+body.red .panel {
+  border-color: #ce001b;
+}
+
+body.purple .panel {
+  border-color: #700076;
+}
+
+body.blue-light .panel {
+  border-color: #0487c8;
+}
+
+body.blue .panel {
+  border-color: #2f4792;
+}
+
+body.blue-dark .panel {
+  border-color: #244874;
+}
+
+body.blue-green .panel {
+  border-color: #016272;
+}
+
+body.green .panel {
+  border-color: #41650b;
+}
+
+.panel .panel-head {
+  color: white;
+  padding: 5px;
+  font-weight: bold;
+}
+
+body.orange-light .panel .panel-head {
+  background-color: #f2690d;
+}
+
+body.orange-dark .panel .panel-head {
+  background-color: #d84b39;
+}
+
+body.red .panel .panel-head {
+  background-color: #ce001b;
+}
+
+body.purple .panel .panel-head {
+  background-color: #700076;
+}
+
+body.blue-light .panel .panel-head {
+  background-color: #0487c8;
+}
+
+body.blue .panel .panel-head {
+  background-color: #2f4792;
+}
+
+body.blue-dark .panel .panel-head {
+  background-color: #244874;
+}
+
+body.blue-green .panel .panel-head {
+  background-color: #016272;
+}
+
+body.green .panel .panel-head {
+  background-color: #41650b;
+}
+
+.panel .panel-body {
+  font-style: italic;
+  padding: 5px;
+}
+
+body.orange-light .panel .panel-body {
+  background-color: rgba(242, 105, 13, 0.25);
+}
+
+body.orange-dark .panel .panel-body {
+  background-color: rgba(216, 75, 57, 0.25);
+}
+
+body.red .panel .panel-body {
+  background-color: rgba(206, 0, 27, 0.25);
+}
+
+body.purple .panel .panel-body {
+  background-color: rgba(112, 0, 118, 0.25);
+}
+
+body.blue-light .panel .panel-body {
+  background-color: rgba(4, 135, 200, 0.25);
+}
+
+body.blue .panel .panel-body {
+  background-color: rgba(47, 71, 146, 0.25);
+}
+
+body.blue-dark .panel .panel-body {
+  background-color: rgba(36, 72, 116, 0.25);
+}
+
+body.blue-green .panel .panel-body {
+  background-color: rgba(1, 98, 114, 0.25);
+}
+
+body.green .panel .panel-body {
+  background-color: rgba(65, 101, 11, 0.25);
+}
+/*# sourceMappingURL=style.css.map */

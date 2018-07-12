@@ -1,0 +1,5 @@
+# Files
+*.css.map
+
+# IDE
+.vscode/*

@@ -1,0 +1,51 @@
+/**
+ * Copyright (C) 2018, Alex Scheitlin. All rights reserved.
+ *
+ * This source code is licensed under the MIT license
+ * found in the LICENSE file in the root directory of this project.
+ */
+
+@import 'colors';
+@import 'themeColor';
+
+* {
+    box-sizing: border-box;
+    font-family: Roboto, Arial, Helvetica, Nimbus Sans L, sans-serif;
+    font-size: 100%;
+}
+
+body {
+    background-color: #ebebeb;
+}
+
+.wrapper {
+    margin: 100px auto 0 auto;
+    width: 460px;
+    background: #fafafa;
+    border: 1px solid #ebebeb;
+    box-shadow: rgba(0, 0, 0, 0.14902) 0px 1px 1px 0px, rgba(0, 0, 0, 0.09804) 0px 1px 2px 0px;
+    padding: 20px;
+}
+
+h1 {
+    border-bottom: 1px solid;
+    font-size: 2rem;
+    @include theme-color('color');
+    @include theme-color('border-color');
+}
+
+.panel {
+    border: 1px solid;
+    @include theme-color('border-color');
+    .panel-head {
+        color: white;
+        padding: 5px;
+        font-weight: bold;
+        @include theme-color('background-color');
+    }
+    .panel-body {
+        font-style: italic;
+        padding: 5px;
+        @include theme-color('background-color', 0.25);
+    }
+}
